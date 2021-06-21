@@ -49,6 +49,9 @@ This will create a checkoint directory and store the weights inside. You can dec
 ```python
 SAVE_LOAD_WEIGHTS_PATH = '/home/anelmusic/anel_projects/camvid/camvid_semantic_segmentation_tf2/checkpoints/FCN8_SEGMENTATION_WEIGHTS'
 ```
+## Hint:
+Using the configuration provided in the config file you can expect aprox 60% accuracy. However, no advanced techniques (e.g learning rate scheduling) were used. 
+Accuracy in this case may be misleading as the classes are severely imbalanced. In order to tackle this problem other metrics such as MeanIoU are suited.
 
 ## If you dont have a GPU:
 I prepared a all-in-one Jupyter Notebook that can be run in google colab. You only need to create a google account and upload the dataset to your free google drive cloud storage.
