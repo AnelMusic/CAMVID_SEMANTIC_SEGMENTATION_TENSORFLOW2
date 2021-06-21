@@ -40,6 +40,8 @@ The complete project is configured using the config.py file.
 
 Here, you can provide the respective dataset paths, define basic hyperparameters as well as define your optimizer,loss function and metrics. This means that for basic training an evaluation not a single line of code must be changed.
 
+Preprocessing and preparing the dataset is handled by the DatasetManager.
+
 ### Training:
 In order to train the model you must make sure that the MODE FLAG in config file is set to = "training"
 ```python
