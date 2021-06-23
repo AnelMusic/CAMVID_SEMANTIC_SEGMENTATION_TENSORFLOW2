@@ -57,7 +57,7 @@ Accuracy in this case may be misleading as the classes are severely imbalanced. 
 
 ## If you dont have a GPU:
 I prepared a all-in-one Jupyter Notebook that can be run in google colab. You only need to create a google account and upload the dataset to your free google drive cloud storage.
-Feel free to try: Camvid_All_in_one_Semantic_Segmentation.ipynb
+Feel free to try: Camvid_All_in_one_Semantic_Segmentation.ipynb (Camvid_All_in_one_Semantic_Segmentation.txt)
 
 ## Meta
 
